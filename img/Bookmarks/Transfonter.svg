@@ -1,0 +1,18 @@
+<svg width="50" height="50" xmlns="http://www.w3.org/2000/svg">
+ <style type="text/css">
+  <![CDATA[
+	.st0{fill:#428BCA;stroke:#428BCA;stroke-miterlimit:10;}
+	.st1{fill:#52B13C;stroke:#52B13C;stroke-miterlimit:10;}
+	.st2{fill:#5D6168;stroke:#5D6168;stroke-miterlimit:10;}
+]]>
+ </style>
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="52" width="52" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path id="svg_3" d="m1.03618,49.6387c-0.16746,0 -0.16746,0 -0.16746,-0.19709l23.94675,-48.87756c0,0 0.16746,0 0.33492,0l23.94675,48.87756c0.16746,0.19709 0,0.19709 -0.16746,0.19709l-47.8935,0zm40.02289,-5.32135c0.16746,0 0.16746,0 0.16746,-0.19709l-15.90868,-32.51935c-0.16746,0 -0.16746,0 -0.33492,0l-15.90868,32.51935c0,0.19709 0,0.19709 0.16746,0.19709l31.81736,0z" class="st0"/>
+ </g>
+</svg>

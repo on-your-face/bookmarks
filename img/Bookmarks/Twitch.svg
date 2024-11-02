@@ -1,0 +1,17 @@
+<svg width="24" height="28" xmlns="http://www.w3.org/2000/svg" class="ScSvg-sc-mx5axi-2 iAAiAK">
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="30" width="26" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_1" fill="#BF94FF">
+   <polygon id="svg_2" fill="#A970FF" class="ScBody-sc-mx5axi-3 dosCbL" points="5,0 0,5 0,23 6,23 6,28 11,23 15,23 24,14 24,0 "/>
+   <polygon id="svg_3" fill="#FFFFFF" class="ScFace-sc-mx5axi-4 fDFkyX" points="18,17 22,13 22,2 6,2 6,17 10,17 10,21 14,17 "/>
+   <g id="svg_4" fill="#BF94FF" class="ScEyes-sc-mx5axi-5 fAMMxB">
+    <path id="svg_5" fill="#A970FF" class="ScBody-sc-mx5axi-3 dosCbL" d="m12,6l2,0l0,6l-2,0l0,-6zm7,0l0,6l-2,0l0,-6l2,0z"/>
+   </g>
+  </g>
+ </g>
+</svg>

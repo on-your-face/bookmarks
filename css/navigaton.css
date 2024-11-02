@@ -1,0 +1,27 @@
+.navigation {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    gap: 0 5px;
+}
+
+.navigation__icon {
+    opacity: .5;
+}
+
+.navigation__icon:hover,
+.navigation__icon.active {
+    opacity: 1;
+}
+
+.bookmarks {
+    display: none;
+}
+
+.os {
+    display: none;
+}
+
+.active {
+    display: flex;
+}

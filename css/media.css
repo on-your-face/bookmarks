@@ -1,0 +1,31 @@
+@media (max-width:860px) {
+    img {
+        height: 30px;
+        width: 30px;
+    }
+}
+
+@media (max-width:725px) {
+    .block__right .shelf__container {
+        align-items: center;
+        justify-content: center;
+    }
+    .all__block {
+        flex-direction: column;
+    }
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .shelf__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    img {
+        height: 50px;
+        width: 50px;
+    }
+}

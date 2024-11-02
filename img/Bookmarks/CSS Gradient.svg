@@ -1,0 +1,18 @@
+<svg width="56" height="56" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <linearGradient id="a" y2="24.817%" x2="50%" y1="100%" x1="50%">
+   <stop offset="0%" stop-color="#FF7A00"/>
+   <stop offset="100%" stop-color="#FD0"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="58" width="58" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_1" fill-rule="evenodd" fill="none">
+   <circle id="svg_2" r="27.26742" cy="28.02139" cx="27.85847" fill="url(#a)"/>
+  </g>
+ </g>
+</svg>

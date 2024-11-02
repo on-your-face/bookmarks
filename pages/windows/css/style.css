@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    background: #000;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    user-select: none;
+    line-height: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    display: inline-block;
+    transition: .3s;
+}
+
+a:hover::after {
+    transform: scaleX(1);
+}
+
+.list {
+    font-family: "PT Sans", sans-serif;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 5px;
+    padding: 5px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 5px;
+    /* max-width: 250px; */
+}
+
+.list:first-child {
+    margin-top: 0px;
+}
+
+.wrapper {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    inset: 0;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
+
+.item {
+    padding-bottom: 10px;
+}
+
+.item::after {
+    content: '';
+    display: block;
+    height: 2.5px;
+    width: 100%;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.OS::after {
+    background: #48d6ff;
+}
+
+.OS:hover {
+    color:  #48d6ff;
+}
+
+.Key::after {
+    background: #fbc428;
+}
+
+.Key:hover {
+    color:  #fbc428;
+}
+
+.MSO2007::after {
+    background: #42df68;
+}
+
+.MSO2007:hover {
+    color: #42df68;
+}
+
+.MSO2016-2019::after {
+    background: #f88d62;
+}
+
+.MSO2016-2019:hover {
+    color: #f88d62 ;
+}
+
+.cfw:hover {
+    color: #8c9ab1;
+}
+
+.cfw::after {
+    background: #8c9ab1;
+}
+
+.heic::after {
+    background: #2a7ad2;
+}
+
+.heic:hover {
+    color: #2a7ad2;
+}
+
+@media (max-width:540px) {
+    body {
+        font-size: 30px;
+    }
+    img {
+        width: 35px;
+        height: 35px;
+    }
+    .item {
+        padding-bottom: 5px;
+    }
+    .item::after {
+        height: 2px;
+    }
+}
+
+@media (max-width:410px) {
+    body {
+        font-size: 25px;
+    }
+    img {
+        width: 30px;
+        height: 30px;
+    }
+    .item {
+        padding-bottom: 0px;
+    }
+    .item::after {
+        height: 1px;
+    }
+}
+
+@media (max-width:340px) {
+    body {
+        font-size: 20px;
+    }
+    img {
+        width: 25px;
+        height: 25px;
+    }
+    .item {
+        padding-bottom: 0px;
+    }
+    .item::after {
+        height: 1px;
+    }
+}

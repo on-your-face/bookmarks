@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    background: #000;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    user-select: none;
+    line-height: 30px;
+}
+
+.list {
+    margin-left: 5px;
+    margin-top: 2px;
+    /* padding: 5px; */
+    /* display: inline-block; */
+    /* border: 2px solid #ff0000; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 5px;
+    
+}
+
+img {
+    width: 30px;
+    height: 30px;
+}
+
+/* .list:last-child {
+    margin-top: 0;
+} */
+
+.description {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.code {
+    background: #3f3e40;
+    padding: 2px 4px;
+    border-radius: 5px;
+    font-family: "Alegreya", serif;
+    opacity: .5;
+}
+
+.code:hover {
+    opacity: 1;
+}
