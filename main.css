@@ -1,4 +1,5 @@
-@import url("./css/all.css");
-@import url("./css/navigaton.css");
-/* media */
-@import url("./css/media.css");
+
+@import url("./files/css/general.css");
+@import url("./files/css/all.css");
+@import url("./files/css/navigaton.css");
+@import url("./files/css/media.css");
