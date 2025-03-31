@@ -1,0 +1,12 @@
+<svg width="50.000000" height="50.000000" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs/>
+	<circle id="Эллипс 2" cx="25.000000" cy="25.000000" r="25.000000" fill="#FFFFFF" fill-opacity="1.000000"/>
+	<path id="path" d="M7.72 40L14.08 40L14.08 24.54L5 17.73L5 37.27C5 38.78 6.21 40 7.72 40Z" fill="#4285F4" fill-opacity="1.000000" fill-rule="nonzero"/>
+	<path id="path" d="M35.9 40L42.27 40C43.77 40 45 38.78 45 37.27L45 17.73L35.9 24.54L35.9 40Z" fill="#34A853" fill-opacity="1.000000" fill-rule="nonzero"/>
+	<path id="path" d="M35.9 12.73L35.9 24.54L45 17.73L45 14.1C45 10.72 41.14 8.8 38.44 10.82L35.9 12.73Z" fill="#FBBC04" fill-opacity="1.000000" fill-rule="nonzero"/>
+	<path id="path" d="M14.08 24.54L14.08 12.73L25 20.91L35.9 12.73L35.9 24.54L25 32.73L14.08 24.54Z" fill="#EA4335" fill-opacity="1.000000" fill-rule="nonzero"/>
+	<path id="path" d="M5 14.1L5 17.73L14.08 24.54L14.08 12.73L11.54 10.82C8.84 8.8 5 10.72 5 14.1Z" fill="#C5221F" fill-opacity="1.000000" fill-rule="nonzero"/>
+</svg>

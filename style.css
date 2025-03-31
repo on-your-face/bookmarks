@@ -1,0 +1,256 @@
+@import "./src/css/general.css";
+
+@font-face {
+    font-family: "PlayfairDisplay";
+    src: url("./src/fonts/PlayfairDisplay-Regular.woff") format("woff"), url("./src/fonts/PlayfairDisplay-Regular.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "PublicSans";
+    src: url("./src/fonts/PublicSans-ExtraLight.woff") format("woff"), url("./src/fonts/PublicSans-ExtraLight.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.lang_ru {
+    font-family: "PlayfairDisplay";
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+    user-select: none;
+    background-color: black;
+    height: 100%;
+}
+
+#preloader {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+}
+
+.loader {
+    border: 10px solid #f3f3f3;
+    border-top: 10px solid #3498db;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.general {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+}
+
+@media (max-width: 500px) {
+    .general {
+        padding: 10px 12.5px 10px 12.5px;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+}
+
+.box {
+    display: flex;
+    gap: 0px 5px;
+    margin-bottom: 3px;
+    padding: 10px;
+    background: linear-gradient(90deg, #697f884b, #685f5f3f);
+    width: fit-content;
+    border-radius: 10px;
+}
+
+.box:last-child {
+    margin-bottom: 0;
+}
+
+@media (max-width: 500px) {
+    .box {
+        justify-content: center;
+        align-items: center;
+        gap: 10px 10px;
+        width: auto;
+    }
+}
+
+.box.folder {
+    background: rgb(50, 49, 65);
+    background: linear-gradient(90deg, rgba(50, 49, 65, 1) 0%, rgba(83, 64, 64, 1) 33%, rgba(53, 78, 83, 1) 100%);
+}
+
+.box.change {
+    background: linear-gradient(90deg, #2586ac33, #e9090938);
+}
+
+.element {
+    width: 60px;
+    height: auto;
+    opacity: 1;
+    transition: 0.3s;
+    position: relative;
+}
+
+.element:hover {
+    opacity: 0.5;
+}
+
+.element img {
+    width: 100%;
+    height: auto;
+    opacity: 1;
+    box-sizing: border-box;
+}
+
+.element svg {
+    width: 100%;
+    height: auto;
+    opacity: 1;
+    box-sizing: border-box;
+}
+
+@media (max-width: 500px) {
+    .element {
+        width: 75px;
+    }
+
+    .element:hover {
+        opacity: unset;
+    }
+}
+
+.icon__marker__first {
+    width: 33.33% !important;
+    height: auto;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.icon__marker__close {
+    width: 70% !important;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.border {
+    border-radius: 15%;
+}
+
+.modal {
+    position: fixed;
+    inset: 0;
+
+    background: #000000;
+    z-index: 10;
+    visibility: hidden;
+    opacity: 0;
+    overflow-y: auto;
+
+    transition: 0.2s;
+}
+
+.modal--opened {
+    visibility: visible;
+    opacity: 1;
+}
+
+.container__hashtags {
+    font-family: "PublicSans";
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: auto;
+    background: radial-gradient(circle, rgba(238, 174, 202, 0.315) 0%, rgba(148, 188, 233, 0.301) 100%);
+    padding: 10px;
+    border-radius: 10px;
+    gap: 10px 0px;
+    /* height: fit-content; */
+}
+
+.hashtags__header {
+    width: 45px;
+    height: auto;
+}
+
+.hashtags__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3px;
+    margin-bottom: 3px;
+}
+
+.hashtags__content:last-child {
+    margin-bottom: 0;
+}
+
+.hashtag.anchor img {
+    width: 30px;
+    height: auto;
+}
+
+.hashtag {
+    background: #7e7e7e52;
+    margin: 0;
+    padding: 5px;
+    font-family: "PublicSans";
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    width: fit-content;
+    border-radius: 2px;
+    text-decoration: none;
+    color: white;
+    word-break: break-word;
+    margin: 0;
+}
+
+.hashtag:hover {
+    opacity: 0.5;
+}
+
+.hashtag img {
+    width: 20px;
+    height: 20px;
+}
+
+.hashtag p {
+    margin: 0;
+    line-height: 1;
+}
+
+.rough-draft {
+    display: none;
+}
