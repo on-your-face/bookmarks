@@ -1,5 +1,3 @@
-
-
 // Открываем модальное окно
 
 // Добавляем слушатели на все элементы с data-modal-id
@@ -138,22 +136,115 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 });
 
-
 // якоря для хэштегов тг
 
-document.querySelectorAll('.hashtag.anchor').forEach(link => {
-    link.addEventListener('click', function(event) {
-        event.preventDefault();  // Отключить стандартное поведение ссылки
+document.querySelectorAll(".hashtag.anchor").forEach((link) => {
+    link.addEventListener("click", function (event) {
+        event.preventDefault(); // Отключить стандартное поведение ссылки
 
         // Получаем id якоря из href
-        const targetId = this.getAttribute('href').substring(1);
+        const targetId = this.getAttribute("href").substring(1);
         const targetElement = document.getElementById(targetId);
 
         if (targetElement) {
             // Прокручиваем к нужному элементу с плавным переходом
             targetElement.scrollIntoView({
-                behavior: 'smooth'
+                behavior: "smooth",
             });
+        }
+    });
+});
+
+// Длинные тексты для копирования
+
+document.querySelectorAll("a[data-href]").forEach((element) => {
+    element.addEventListener("click", function (event) {
+        event.preventDefault(); // Предотвращаем переход по ссылке
+
+        const dataHref = this.getAttribute("data-href"); // Получаем значение data-href
+
+        // Проверяем, если значение data-href существует и текст для копирования найден
+        if (dataHref) {
+            // Находим текст, связанный с data-href
+            const textMap = {
+                "ahk-run": `Во-первых, вот команды для работы с рабочими столами:
+
+; VD.getCurrentDesktopNum()
+; VD.getDesktopNumOfWindow(wintitle) ;please use VD.goToDesktopOfWindow instead if you just want to go there.
+; VD.getDesktopNumOfWindow(wintitle) ;returns 0 for "Show on all desktops"
+; VD.getCount() ;how many virtual desktops you now have
+; VD.getRelativeDesktopNum(anchor_desktopNum, relative_count)
+; VD.goToDesktopNum(desktopNum)
+; VD.goToDesktopOfWindow(wintitle, activateYourWindow:=true)
+; VD.gotoRelativeDesktopNum(relative_count)
+; VD.MoveWindowToDesktopNum(wintitle, desktopNum)
+; VD.MoveWindowToCurrentDesktop(wintitle, activateYourWindow:=true)
+; VD.MoveWindowToRelativeDesktopNum(wintitle, relative_count)
+; VD.createDesktop(goThere:=true) ; VD.createUntil(howMany, goToLastlyCreated:=true)
+; VD.removeDesktop(desktopNum, fallback_desktopNum:=false)
+; "Show this window on all desktops"
+; VD.IsWindowPinned(wintitle)
+; VD.TogglePinWindow(wintitle)
+; VD.PinWindow(wintitle)
+; VD.UnPinWindow(wintitle)
+; "Show windows from this app on all desktops"
+; VD.IsAppPinned(wintitle)
+; VD.TogglePinApp(wintitle)
+; VD.PinApp(wintitle)
+; VD.UnPinApp(wintitle)
+
+Скрипт активируется по этим горячим клавишам: 
+Проверяешь, на каком рабочем столе мы находимся: если на первом, то ты ничего не делаешь, если нет — то переключаешься на первый.
+На этом рабочем столе ты ищеешь окно со следующими данным: ahk_exe kpm.exe
+Если не находишь окно, то запускаешь по пути: 
+Если координаты такие «», то дальше ничего не делаешь, если же нет, то кидаешь это окно в эти координаты.
+Ставишь это окно в фокус.
+Всё то же самое (кроме запуска программы) ты делаешь в том случае, если окно найдено.
+Для написания данного скрипта используй следующий, как пример:
+
+<#z::
+{
+currentDesktop := VD.getCurrentDesktopNum()
+if (currentDesktop != 1) {
+VD.goToDesktopNum(1)
+}
+
+windowExe := "ahk_exe Telegram.exe"
+telegramPath := "C:\\Users\\user\\AppData\\Roaming\\Telegram Desktop\\Telegram.exe"
+
+if !WinExist(windowExe) {
+Run, %telegramPath%
+WinWait, %windowExe%
+}
+
+hWnd := WinExist(windowExe)
+DllCall("SetForegroundWindow", "UInt", hWnd)  ; Принудительное поднятие окна
+
+WinWaitActive, %windowExe%
+
+WinGetPos, x, y, w, h, %windowExe%
+if (x != -1920 or y != -77 or w != 1920 or h != 1080) {
+WinMove, %windowExe%, , -1920, -77, 1920, 1080
+}
+}
+return`,
+
+                // Добавляем новый текст для data-href="new-text"
+                "new-text": `Это новый текст, который будет скопирован при клике на ссылку с data-href="new-text". 
+Ты можешь вставить сюда любой текст, который должен быть скопирован.`,
+            };
+
+            const textToCopy = textMap[dataHref];
+
+            if (textToCopy) {
+                // Создаем временный элемент для копирования текста
+                const tempInput = document.createElement("textarea");
+                tempInput.value = textToCopy; // Устанавливаем текст для копирования
+                document.body.appendChild(tempInput);
+                tempInput.select();
+                document.execCommand("copy"); // Копируем в буфер обмена
+                document.body.removeChild(tempInput);
+            }
         }
     });
 });
