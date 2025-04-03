@@ -182,12 +182,16 @@ document.querySelectorAll("a[data-href]").forEach((element) => {
 ; VD.MoveWindowToRelativeDesktopNum(wintitle, relative_count)
 ; VD.createDesktop(goThere:=true) ; VD.createUntil(howMany, goToLastlyCreated:=true)
 ; VD.removeDesktop(desktopNum, fallback_desktopNum:=false)
+
 ; "Show this window on all desktops"
+
 ; VD.IsWindowPinned(wintitle)
 ; VD.TogglePinWindow(wintitle)
 ; VD.PinWindow(wintitle)
 ; VD.UnPinWindow(wintitle)
+
 ; "Show windows from this app on all desktops"
+
 ; VD.IsAppPinned(wintitle)
 ; VD.TogglePinApp(wintitle)
 ; VD.PinApp(wintitle)
@@ -195,7 +199,7 @@ document.querySelectorAll("a[data-href]").forEach((element) => {
 
 Скрипт активируется по этим горячим клавишам: 
 Проверяешь, на каком рабочем столе мы находимся: если на первом, то ты ничего не делаешь, если нет — то переключаешься на первый.
-На этом рабочем столе ты ищеешь окно со следующими данным: ahk_exe kpm.exe
+На этом рабочем столе ты ищеешь окно со следующими данными: ahk_exe kpm.exe
 Если не находишь окно, то запускаешь по пути: 
 Если координаты такие «», то дальше ничего не делаешь, если же нет, то кидаешь это окно в эти координаты.
 Ставишь это окно в фокус.
