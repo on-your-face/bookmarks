@@ -1,0 +1,46 @@
+<svg width="50.000000" height="50.000000" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<filter id="filter_107_129_dd" x="-12.530396" y="-0.485840" width="75.030396" height="62.985352" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="0" dy="0"/>
+			<feGaussianBlur stdDeviation="4.16667"/>
+			<feComposite in2="hardAlpha" operator="out" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+			<feBlend mode="normal" in2="BackgroundImageFix" result="effect_dropShadow_1"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="effect_dropShadow_1" result="shape"/>
+		</filter>
+		<filter id="filter_107_131_dd" x="21.875000" y="-12.500000" width="40.625000" height="75.000122" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="0" dy="0"/>
+			<feGaussianBlur stdDeviation="4.16667"/>
+			<feComposite in2="hardAlpha" operator="out" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+			<feBlend mode="normal" in2="BackgroundImageFix" result="effect_dropShadow_1"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="effect_dropShadow_1" result="shape"/>
+		</filter>
+		<linearGradient x1="24.969597" y1="0.000000" x2="24.969597" y2="50.000019" id="paint_linear_107_134_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#FFFFFF"/>
+			<stop offset="1.000000" stop-color="#FFFFFF" stop-opacity="0.000000"/>
+		</linearGradient>
+	</defs>
+	<mask id="mask107_126" mask-type="alpha" maskUnits="userSpaceOnUse" x="0.000000" y="0.000000" width="50.000000" height="50.000000">
+		<path id="path" d="M35.45 49.78C36.24 50.09 37.14 50.07 37.93 49.69L48.23 44.71C49.31 44.18 50 43.08 50 41.88L50 8.11C50 6.91 49.31 5.81 48.23 5.28L37.93 0.3C36.89 -0.2 35.67 -0.08 34.75 0.59C34.62 0.69 34.5 0.79 34.38 0.91L14.67 18.98L6.09 12.43C5.29 11.83 4.17 11.88 3.43 12.55L0.68 15.07C-0.23 15.9 -0.23 17.34 0.67 18.17L8.12 25L0.67 31.82C-0.23 32.65 -0.23 34.09 0.68 34.92L3.43 37.44C4.17 38.11 5.29 38.16 6.09 37.55L14.67 31.01L34.38 49.08C34.69 49.39 35.06 49.63 35.45 49.78ZM37.5 13.59L22.55 25L37.5 36.4L37.5 13.59Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</mask>
+	<g mask="url(#mask107_126)">
+		<path id="path" d="M48.23 5.29L37.92 0.31C36.73 -0.27 35.31 -0.03 34.37 0.91L0.64 31.82C-0.26 32.65 -0.26 34.09 0.65 34.92L3.4 37.44C4.14 38.11 5.26 38.16 6.06 37.56L46.68 6.59C48.04 5.55 50 6.52 50 8.24L50 8.12C50 6.92 49.31 5.82 48.23 5.29Z" fill="#0065A9" fill-opacity="1.000000" fill-rule="nonzero"/>
+		<g filter="url(#filter_107_129_dd)">
+			<path id="path" d="M48.23 44.7L37.92 49.68C36.73 50.26 35.31 50.02 34.37 49.08L0.64 18.17C-0.26 17.34 -0.26 15.9 0.65 15.07L3.4 12.55C4.14 11.88 5.26 11.83 6.06 12.43L46.68 43.4C48.04 44.44 50 43.47 50 41.75L50 41.87C50 43.07 49.31 44.17 48.23 44.7Z" fill="#007ACC" fill-opacity="1.000000" fill-rule="nonzero"/>
+		</g>
+		<g filter="url(#filter_107_131_dd)">
+			<path id="path" d="M37.92 49.69C36.73 50.26 35.31 50.02 34.37 49.08C35.52 50.24 37.5 49.42 37.5 47.78L37.5 2.21C37.5 0.57 35.52 -0.25 34.37 0.91C35.31 -0.03 36.73 -0.27 37.92 0.3L48.22 5.28C49.31 5.81 50 6.91 50 8.11L50 41.88C50 43.08 49.31 44.18 48.22 44.71L37.92 49.69Z" fill="#1F9CF0" fill-opacity="1.000000" fill-rule="nonzero"/>
+		</g>
+		<g opacity="0.250000" style="mix-blend-mode:overlay">
+			<path id="path" d="M35.42 49.78C36.21 50.09 37.11 50.07 37.9 49.69L48.2 44.71C49.28 44.18 49.96 43.08 49.96 41.88L49.96 8.11C49.96 6.91 49.28 5.81 48.2 5.28L37.9 0.3C36.86 -0.2 35.64 -0.08 34.72 0.59C34.59 0.69 34.47 0.79 34.35 0.91L14.64 18.98L6.06 12.43C5.26 11.83 4.14 11.88 3.4 12.55L0.65 15.07C-0.26 15.9 -0.26 17.34 0.64 18.17L8.09 25L0.64 31.82C-0.26 32.65 -0.26 34.09 0.65 34.92L3.4 37.44C4.14 38.11 5.26 38.16 6.06 37.55L14.64 31.01L34.35 49.08C34.66 49.39 35.03 49.63 35.42 49.78ZM37.47 13.59L22.52 25L37.47 36.4L37.47 13.59Z" fill="url(#paint_linear_107_134_0)" fill-opacity="1.000000" fill-rule="evenodd"/>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,23 @@
+<svg width="50.000000" height="50.000000" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<linearGradient x1="27.000002" y1="20.500000" x2="50.000000" y2="20.500000" id="paint_linear_31_31_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#FFFFFF" stop-opacity="0.200000"/>
+			<stop offset="1.000000" stop-color="#FFFFFF" stop-opacity="0.019608"/>
+		</linearGradient>
+		<radialGradient gradientTransform="translate(3.26661 0.96994) rotate(0) scale(70.0466 70.0607)" cx="0.000000" cy="0.000000" r="1.000000" id="paint_radial_31_34_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#FFFFFF" stop-opacity="0.098039"/>
+			<stop offset="1.000000" stop-color="#FFFFFF" stop-opacity="0.000000"/>
+		</radialGradient>
+	</defs>
+	<path id="path" d="M46.65 50C48.49 50 50 48.52 50 46.72L50 13.27C50 11.47 48.49 10 46.65 10L14 10L27.1 50L46.65 50Z" fill="#DBDBDB" fill-opacity="1.000000" fill-rule="nonzero"/>
+	<path id="path" d="M46.65 11.5C47.14 11.5 47.6 11.69 47.95 12.03C48.29 12.37 48.48 12.81 48.48 13.27L48.48 46.72C48.48 47.18 48.3 47.62 47.95 47.96C47.6 48.3 47.14 48.49 46.65 48.49L28.2 48.49L16.08 11.5L46.65 11.5ZM46.65 10L14 10L27.1 50L46.65 50C48.49 50 50 48.52 50 46.72L50 13.27C50 11.47 48.49 10 46.65 10Z" fill="#DCDCDC" fill-opacity="1.000000" fill-rule="nonzero"/>
+	<path id="polygon" d="M24 41L27.17 50L36 41L24 41Z" fill="#4352B8" fill-opacity="1.000000" fill-rule="nonzero"/>
+	<path id="path" d="M48 24.04L48 22.11L38.32 22.11L38.32 19L35.17 19L35.17 22.11L29 22.11L29 24.04L41.29 24.04C40.63 26.27 39.18 28.37 37.76 30.01C35.25 27.15 35.24 26.22 35.24 26.22L32.63 26.22C32.63 26.22 32.74 27.61 36.26 31.58C35.12 32.71 34.25 33.37 34.25 33.37L35.05 35.78C35.05 35.78 36.26 34.78 37.78 33.23C39.3 34.82 41.26 36.72 43.79 39L45.44 37.41C42.73 35.04 40.73 33.16 39.27 31.65C41.23 29.42 43.22 26.61 43.65 24.04L47.99 24.04L48 24.04Z" fill="#607988" fill-opacity="1.000000" fill-rule="nonzero"/>
+	<path id="path" d="M3.34 0C1.5 0 0 1.51 0 3.36L0 37.63C0 39.48 1.5 41 3.34 41L36 41L22.89 0L3.34 0Z" fill="#4285F4" fill-opacity="1.000000" fill-rule="nonzero"/>
+	<path id="path" d="M27 9L46.7 9C48.51 9 50 10.45 50 12.23L50 32L27 9Z" fill="url(#paint_linear_31_31_0)" fill-opacity="1.000000" fill-rule="nonzero"/>
+	<path id="path" d="M18.12 20.7C17.99 22.16 16.72 24.32 13.65 24.32C10.98 24.32 8.83 22.16 8.83 19.5C8.83 16.84 10.98 14.68 13.65 14.68C15.16 14.68 16.17 15.33 16.75 15.85L18.77 13.95C17.44 12.75 15.71 12 13.65 12C9.42 12 6 15.36 6 19.5C6 23.63 9.42 27 13.65 27C18.07 27 21 23.95 21 19.66C21 19.04 20.92 18.59 20.81 18.13L13.65 18.13L13.65 20.7L18.12 20.7Z" fill="#EEEEEE" fill-opacity="1.000000" fill-rule="nonzero"/>
+	<path id="path" d="M46.67 10.03L25.98 10.03L22.76 0L3.32 0C1.49 0 0 1.49 0 3.33L0 37.23C0 39.06 1.49 40.56 3.32 40.56L24.16 40.56L27.23 50L46.67 50C48.5 50 50 48.52 50 46.72L50 13.31C50 11.5 48.5 10.03 46.67 10.03Z" fill="url(#paint_radial_31_34_0)" fill-opacity="1.000000" fill-rule="nonzero"/>
+</svg>

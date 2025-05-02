@@ -1,0 +1,29 @@
+<svg width="50.000000" height="50.000000" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<filter id="filter_38_13_dd" x="9.805466" y="11.072021" width="30.390762" height="30.882935" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="0" dy="0.948166"/>
+			<feGaussianBlur stdDeviation="0.632111"/>
+			<feComposite in2="hardAlpha" operator="out" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+			<feBlend mode="normal" in2="BackgroundImageFix" result="effect_dropShadow_1"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="effect_dropShadow_1" result="shape"/>
+		</filter>
+		<linearGradient x1="25.000000" y1="0.000000" x2="25.000000" y2="50.000000" id="paint_linear_38_12_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#806EFF"/>
+			<stop offset="1.000000" stop-color="#7C62FF"/>
+		</linearGradient>
+		<linearGradient x1="25.000774" y1="12.020193" x2="25.000774" y2="39.110634" id="paint_linear_38_14_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#FFFFFF" stop-opacity="0.909804"/>
+			<stop offset="1.000000" stop-color="#FFFFFF" stop-opacity="0.631373"/>
+		</linearGradient>
+	</defs>
+	<path id="path" d="M10.9 0L34.97 0C36.67 0 37.52 0 38.32 0.17C39.03 0.33 39.7 0.59 40.32 0.95C41.01 1.35 41.61 1.91 42.79 3.02L46.91 6.91C48.05 7.98 48.62 8.52 49.02 9.14C49.39 9.69 49.65 10.29 49.81 10.92C50 11.63 50 12.38 50 13.88L50 25L50 40C50 43.5 50 45.25 49.25 46.58C48.6 47.76 47.55 48.71 46.27 49.31C44.81 50 42.9 50 39.09 50L10.9 50C7.09 50 5.18 50 3.72 49.31C2.44 48.71 1.39 47.76 0.74 46.58C0 45.25 0 43.5 0 40L0 9.99C0 6.49 0 4.74 0.74 3.41C1.39 2.23 2.44 1.28 3.72 0.68C5.18 0 7.09 0 10.9 0Z" fill="url(#paint_linear_38_12_0)" fill-opacity="1.000000" fill-rule="evenodd"/>
+	<g filter="url(#filter_38_13_dd)">
+		<path id="path" d="M38.29 12.02C16.13 12.02 13.17 30.98 11.7 39.11L14.65 39.11C15.63 34.59 18.1 32.11 22.04 31.66C27.95 30.98 32.38 26.24 33.86 22.17L31.65 20.82L33.12 19.46C34.6 18.11 36.08 16.08 38.29 12.02Z" fill="url(#paint_linear_38_14_0)" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+</svg>
