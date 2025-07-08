@@ -60,27 +60,8 @@ a {
     justify-content: space-between;
     gap: 10px 15px;
 }
-/* #main-page .container__two .box {
-    justify-content: end;
-}
-#main-page .container__center .box {
-    justify-content: center;
-}
-#main-page .box {
-    justify-content: start;
-} */
-/* .main__wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100dvh;
-} */
 .main {
-    /* display: flex; */
     padding: 10px 10px 0 10px;
-    /* justify-content: center;
-    flex-wrap: nowrap;
-    flex-direction: column; */
 }
 .main__bottom {
     padding: 0 10px 0 10px;
@@ -98,11 +79,6 @@ a {
 #ai-instruments .main {
     justify-content: center;
 }
-/* .container__three {
-    display: flex;
-    justify-content: center;
-    width: 100vw;
-} */
 #main-page .container__three .box {
     justify-content: center;
 }
@@ -118,8 +94,8 @@ a {
     margin-bottom: 0;
 }
 .element {
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -271,8 +247,8 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     padding: 6px;
     border-radius: 5px;
     background: linear-gradient(90deg, #697f884b, #685f5f3f);
@@ -283,8 +259,8 @@ a {
     opacity: 1;
 }
 .anchor img {
-    width: 30px;
-    height: 30px;
+    width: 100%;
+    height: auto;
 }
 .content {
     display: flex;
@@ -338,20 +314,23 @@ a {
     }
 }
 @media (max-width: 800px) {
+    .anchor {
+        width: 30px;
+        height: 30px;
+    }
+    .element {
+        width: 40px;
+        height: 40px;
+    }
     #main-page .main:first-child {
         flex-direction: column;
     }
     #main-page .container__one {
         justify-content: center;
-        /* order: 2; */
     }
     #main-page .container__two {
         justify-content: center;
-        /* order: 1; */
-    }
-    #main-page .container__center {
-        /* order: 3; */
-    }
+    }=
     #main-page .container__center .box {
         justify-content: center;
     }
