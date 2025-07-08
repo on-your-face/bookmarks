@@ -40,6 +40,7 @@ body {
     padding: 0;
     user-select: none;
     background-color: black;
+
 }
 a {
     text-decoration: none;
@@ -51,9 +52,12 @@ a {
     border-radius: 15%;
 }
 #main-page {
-    display: block;
-    min-height: auto;
-    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
 }
 #main-page .main {
     flex-direction: row;
@@ -64,7 +68,7 @@ a {
     padding: 10px 10px 0 10px;
 }
 .main__bottom {
-    padding: 0 10px 0 10px;
+    padding: 0 10px 10px 10px;
 }
 #google-yandex-vk .main {
     justify-content: space-between;
@@ -330,7 +334,7 @@ a {
     }
     #main-page .container__two {
         justify-content: center;
-    }=
+    }
     #main-page .container__center .box {
         justify-content: center;
     }
