@@ -113,7 +113,7 @@ a {
     cursor: pointer;
 }
 #main-general .element {
-    background: linear-gradient(90deg, #9578ca59, #685f5f3f);
+    background: linear-gradient(90deg, #697f884b, #685f5f3f);
 }
 #main-general .element.folder {
     background: -webkit-linear-gradient(90deg, #000000, #08002e, #000242, #020061, #ad0000);
