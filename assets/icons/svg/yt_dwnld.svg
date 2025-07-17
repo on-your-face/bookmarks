@@ -1,0 +1,17 @@
+<svg width="50.000000" height="50.000000" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip39_15">
+			<rect id="yt_dwnld" width="50.000000" height="50.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip39_15)">
+		<path id="path" d="M48.87 38.2C48.37 41 46.25 43.13 43.64 43.53C39.52 44.2 32.66 45 24.93 45C17.33 45 10.47 44.2 6.23 43.53C3.61 43.13 1.49 41 0.99 38.2C0.49 35.13 0 30.6 0 25C0 19.4 0.49 14.86 0.99 11.8C1.49 9 3.61 6.86 6.23 6.46C10.34 5.8 17.2 5 24.93 5C32.66 5 39.4 5.8 43.64 6.46C46.25 6.86 48.37 9 48.87 11.8C49.37 14.86 50 19.4 50 25C49.87 30.6 49.37 35.13 48.87 38.2Z" fill="#FF3D00" fill-opacity="1.000000" fill-rule="nonzero"/>
+		<path id="path" d="M15 34L22.25 34L22.25 15L27.25 15L27.25 34L34.51 34L24.75 43.79L15 34Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+		<path id="path" d="M24.92 27.7C18.98 27.7 14.14 22.86 14.14 16.92C14.14 10.98 18.98 6.14 24.92 6.14C30.86 6.14 35.7 10.98 35.7 16.92C35.7 22.86 30.86 27.7 24.92 27.7Z" fill="#000000" fill-opacity="1.000000" fill-rule="nonzero"/>
+		<path id="path" d="M24.92 6.28C30.79 6.28 35.56 11.05 35.56 16.92C35.56 22.79 30.79 27.56 24.92 27.56C19.05 27.56 14.28 22.79 14.28 16.92C14.28 11.05 19.05 6.28 24.92 6.28ZM24.92 6C18.89 6 14 10.89 14 16.92C14 22.95 18.89 27.85 24.92 27.85C30.95 27.85 35.84 22.95 35.84 16.92C35.84 10.89 30.95 6 24.92 6Z" fill="#788B9C" fill-opacity="1.000000" fill-rule="nonzero"/>
+		<path id="path" d="M21 24L21 10L32 17L21 24Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+</svg>
