@@ -1,0 +1,30 @@
+html,
+body {
+   background-color: #000;
+   margin: 0;
+   padding: 0;
+   user-select: none;
+   overflow-x: hidden;
+}
+
+body::after {
+   content: '';
+   position: fixed;
+   inset: 0;
+   background: rgba(0, 0, 0, 0.55); /* полупрозрачное стекло */
+   z-index: -1;
+   backdrop-filter: blur(10px);
+   -webkit-backdrop-filter: blur(10px);
+}
+
+a {
+   text-decoration: none;
+}
+
+.circle {
+   border-radius: 50%;
+}
+
+.border {
+   border-radius: 15%;
+}

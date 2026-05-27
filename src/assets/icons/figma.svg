@@ -1,0 +1,17 @@
+<svg width="50.000000" height="50.000000" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs/>
+	<rect id="Прямоугольник 2" width="50.000000" height="50.000000" fill="#2C2E36" fill-opacity="1.000000"/>
+	<path id="path" d="M25 24.5C25 21.27 27.46 18.66 30.5 18.66C33.53 18.66 36 21.27 36 24.5C36 27.72 33.53 30.33 30.5 30.33C27.46 30.33 25 27.72 25 24.5Z" fill="#00B6FF" fill-opacity="1.000000" fill-rule="nonzero"/>
+	<path id="path" d="M30.5 18.66C33.53 18.66 36 21.27 36 24.5C36 27.72 33.53 30.33 30.5 30.33C27.46 30.33 25 27.72 25 24.5C25 21.27 27.46 18.66 30.5 18.66Z" stroke="#000000" stroke-opacity="0" stroke-width="1.000000"/>
+	<path id="path" d="M14 36.16C14 32.94 16.46 30.33 19.5 30.33L25 30.33L25 36.16C25 39.38 22.53 42 19.5 42C16.46 42 14 39.38 14 36.16Z" fill="#24CB71" fill-opacity="1.000000" fill-rule="nonzero"/>
+	<path id="path" d="M19.5 30.33L25 30.33L25 36.16C25 39.38 22.53 42 19.5 42C16.46 42 14 39.38 14 36.16C14 32.94 16.46 30.33 19.5 30.33Z" stroke="#000000" stroke-opacity="0" stroke-width="1.000000"/>
+	<path id="path" d="M25 7L25 18.66L30.5 18.66C33.53 18.66 36 16.05 36 12.83C36 9.61 33.53 7 30.5 7L25 7Z" fill="#FF7237" fill-opacity="1.000000" fill-rule="nonzero"/>
+	<path id="path" d="M25 18.66L30.5 18.66C33.53 18.66 36 16.05 36 12.83C36 9.61 33.53 7 30.5 7L25 7L25 18.66Z" stroke="#000000" stroke-opacity="0" stroke-width="1.000000"/>
+	<path id="path" d="M14 12.83C14 16.05 16.46 18.66 19.5 18.66L25 18.66L25 7L19.5 7C16.46 7 14 9.61 14 12.83Z" fill="#FF3737" fill-opacity="1.000000" fill-rule="nonzero"/>
+	<path id="path" d="M19.5 18.66L25 18.66L25 7L19.5 7C16.46 7 14 9.61 14 12.83C14 16.05 16.46 18.66 19.5 18.66Z" stroke="#000000" stroke-opacity="0" stroke-width="1.000000"/>
+	<path id="path" d="M14 24.5C14 27.72 16.46 30.33 19.5 30.33L25 30.33L25 18.66L19.5 18.66C16.46 18.66 14 21.27 14 24.5Z" fill="#874FFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+	<path id="path" d="M19.5 30.33L25 30.33L25 18.66L19.5 18.66C16.46 18.66 14 21.27 14 24.5C14 27.72 16.46 30.33 19.5 30.33Z" stroke="#000000" stroke-opacity="0" stroke-width="1.000000"/>
+</svg>

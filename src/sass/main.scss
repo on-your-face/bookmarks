@@ -1,0 +1,187 @@
+.container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 7px;
+   min-height: 100dvh;
+   // padding: 7px;
+}
+
+.box {
+   align-items: center;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 7px;
+   justify-content: center;
+   padding: 0px 7px;
+   width: 100%;
+
+   &:first-child {
+      padding-top: 7px;
+   }
+
+   &:last-child {
+      padding-bottom: 7px;
+   }
+
+   &.shadow {
+      filter: brightness(0.4); // затемнение блока
+      transition: filter 0.3s ease;
+
+      &:hover {
+         filter: brightness(1); // убираем затемнение при наведении
+      }
+   }
+}
+
+.element {
+   align-items: center;
+   background: linear-gradient(90deg, #697f884b, #685f5f3f);
+   border-radius: 7px;
+   cursor: pointer;
+   display: flex;
+   justify-content: center;
+   opacity: 1;
+   padding: 7px;
+   transition: 0.5s ease;
+   // width: 100%;
+   width: 50px;
+   height: 50px;
+
+   &:hover {
+      opacity: 0.5;
+   }
+
+   & svg {
+      height: auto;
+      width: 100%;
+   }
+
+   & img {
+      height: auto;
+      width: 100%;
+   }
+
+   &.folder {
+      position: relative;
+      overflow: hidden;
+      border-radius: 7px;
+
+      background: linear-gradient(
+         90deg,
+         rgba(95, 110, 120, 0.35),
+         // левый мягкий акцент
+         rgba(85, 105, 115, 0.35),
+         // основной мягкий цвет
+         rgba(75, 95, 105, 0.35),
+         // основной цвет
+         rgba(95, 110, 120, 0.35) // правый мягкий акцент
+      );
+      background-size: 400% 100%;
+      animation: gradientShift 20s ease-in-out infinite;
+
+      .folder {
+         position: relative;
+         overflow: hidden;
+         border-radius: 7px;
+         background: linear-gradient(90deg, rgba(95, 110, 120, 0.35), rgba(85, 105, 115, 0.35), rgba(75, 95, 105, 0.35), rgba(95, 110, 120, 0.35));
+         background-size: 400% 100%;
+         animation: gradientShift 20s ease-in-out infinite;
+      }
+
+      .corner {
+         position: absolute;
+         width: 35%;
+         height: 35%;
+         pointer-events: none;
+      }
+
+      .corner.bottom-left {
+         bottom: 0;
+         left: 0;
+         background: radial-gradient(circle at bottom left, rgba(0, 191, 182, 0.25), transparent 70%);
+      }
+
+      .corner.bottom-right {
+         bottom: 0;
+         right: 0;
+         background: radial-gradient(circle at bottom right, rgba(0, 191, 182, 0.25), transparent 70%);
+      }
+
+      .shine {
+         position: absolute;
+         top: 0;
+         left: -150%;
+         width: 80%;
+         height: 100%;
+         background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0) 100%);
+         transform: skewX(-20deg);
+         animation: shine 3s ease-in-out infinite;
+         pointer-events: none;
+      }
+   }
+
+   // Анимация плавного движения градиента
+   @keyframes gradientShift {
+      0% {
+         background-position: 0% 0%;
+      }
+      50% {
+         background-position: 100% 0%;
+      }
+      100% {
+         background-position: 0% 0%;
+      }
+   }
+
+   // Анимация блика
+   @keyframes shine {
+      0% {
+         left: -150%;
+      }
+      50% {
+         left: 150%;
+      }
+      100% {
+         left: 150%;
+      }
+   }
+
+   @media (max-width: 1200px) {
+      &:hover {
+         opacity: initial;
+      }
+
+      width: 57px;
+      height: 57px;
+   }
+}
+
+.divider {
+   background-color: rgb(255 255 255 / 27.4%);
+   box-shadow: 0 0 10px rgb(255 255 255);
+   height: 2px;
+   margin: 2px 0;
+   width: 100%;
+
+   &.first {
+      margin-top: 7px;
+   }
+
+   &.last {
+      margin-bottom: 7px;
+   }
+}
+
+.divider__main {
+   background-color: -webkit-linear-gradient(90deg, #3a7cbc60, #328da355, #409b6c50);
+   background: linear-gradient(90deg, #3a7cbc50, #328da345, #409b6c40);
+   box-shadow: 0 0 16px rgba(0, 195, 255, 0.5);
+}
+
+// .divider__main {
+//    background-color: -webkit-linear-gradient(90deg, #0b6ed1d3, #0098bec9, #0faa559a); /* Chrome 10-25, Safari 5.1-6 */
+//    background: linear-gradient(90deg, #0b6ed1c0, #0098beb7, #0faa55a9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+//    box-shadow: 0 0 10px rgb(0, 238, 255);
+// }
