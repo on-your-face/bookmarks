@@ -1,0 +1,69 @@
+.search__wrap {
+   margin-bottom: 7px;
+}
+
+.search__inner {
+   font-family: 'opensans';
+   position: relative;
+   display: flex;
+   justify-content: center; /* центрируем содержимое */
+   align-items: center; /* вертикальное центрирование */
+   width: 40px;
+   height: 40px;
+   border-radius: 12px;
+   border: 1px solid rgba(255, 255, 255, 0.3);
+   background: rgba(255, 255, 255, 0.1);
+   backdrop-filter: blur(6px);
+   -webkit-backdrop-filter: blur(6px);
+   transition: width 0.3s ease;
+   overflow: hidden;
+}
+
+.search__inner.active {
+   width: 300px;
+}
+
+.search__icon {
+   position: absolute;
+   width: 20px;
+   height: 20px;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   cursor: pointer;
+   z-index: 2;
+   transition:
+      left 0.25s ease,
+      transform 0.25s ease;
+}
+
+.search__inner.active .search__icon {
+   left: 12px;
+   transform: translateY(-50%);
+}
+
+.search__input {
+   flex: 1;
+   height: 100%;
+   text-align: center; /* текст по центру горизонтали */
+   display: flex;
+   align-items: center; /* текст и курсор по центру вертикали */
+   background: transparent;
+   border: none;
+   outline: none;
+   color: #fff;
+   font-size: 19px;
+   box-sizing: border-box;
+   padding: 0 32px; /* отступ слева и справа, чтобы текст не под иконку */
+   caret-color: transparent; /* убираем вертикальный курсор */
+   pointer-events: none; /* запрет ввода до разворачивания */
+}
+
+.search__inner.active .search__input {
+   opacity: 1;
+   pointer-events: auto; /* разрешаем ввод только когда развернуто */
+}
+
+.search__input::placeholder {
+   color: rgba(255, 255, 255, 0.7);
+}

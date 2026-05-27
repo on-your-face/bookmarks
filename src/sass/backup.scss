@@ -1,0 +1,40 @@
+// Было изменено в main.scss, добавлена анимация и другой фонz
+
+.element {
+    align-items: center;
+    background: linear-gradient(90deg, #697f884b, #685f5f3f);
+    border-radius: 7px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    opacity: 1;
+    padding: 7px;
+    transition: 0.5s;
+    // width: 100%;
+    width: 70px;
+ 
+    &:hover {
+       opacity: 0.5;
+    }
+ 
+    & svg {
+       height: auto;
+       width: 100%;
+    }
+ 
+    & img {
+       height: auto;
+       width: 100%;
+    }
+ 
+    &.folder {
+       background: linear-gradient(90deg, #354e69, #000);
+       // background: none;
+    }
+ 
+    @media (max-width: 1000px) {
+       &:hover {
+          opacity: initial;
+       }
+    }
+ }
