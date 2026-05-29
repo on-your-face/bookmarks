@@ -1,0 +1,11 @@
+<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Круг (фон) -->
+  <rect width="50" height="50" rx="25">
+    <animate attributeName="fill" values="black;white;black" dur="10s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Треугольник -->
+  <path d="M25 15L35 35H15L25 15Z">
+    <animate attributeName="fill" values="white;black;white" dur="10s" repeatCount="indefinite"/>
+  </path>
+</svg>
